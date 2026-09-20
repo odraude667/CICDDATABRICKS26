@@ -21,7 +21,7 @@ jobs:
         ORIGIN_HOST=${{ secrets.DATABRICKS_ORIGIN_HOST }}
         ORIGIN_TOKEN=${{ secrets.DATABRICKS_ORIGIN_TOKEN }}
         NOTEBOOK_BASE="/Workspace/Users/danielebm87@outlook.com/CICDDATABRICKS26"
-        NOTEBOOKS=("ntbl_1" "ntbl_2")  # Agrega más según necesitesas
+        NOTEBOOKS=("ntbk_1" "ntbk_2")  # Agrega más según necesitesas
 
         mkdir -p notebooks_to_deploy
 
